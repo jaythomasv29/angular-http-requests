@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 75.0.3770 (Linux 0.0.0)" package="unit" timestamp="2019-10-23T18:43:41" id="0" hostname="workspaceh663wdqiepyeah1t.rba-5c5c948876-2bjx7" tests="6" errors="0" failures="0" time="0.208">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/75.0.3770.100 Safari/537.36"/>
+  </properties>
+  <testcase name="ContactListComponent should call getContacts() method atleast once" time="0.089" classname="unit.ContactListComponent"/>
+  <testcase name="ContactListComponent should get data from server" time="0.031" classname="unit.ContactListComponent"/>
+  <testcase name="ContactService should be created" time="0.015" classname="unit.ContactService"/>
+  <testcase name="ContactService #getContacts should give 404 in user friendly way" time="0.02" classname="unit.ContactService"/>
+  <testcase name="ContactService #getContacts can return empty contacts" time="0.028" classname="unit.ContactService"/>
+  <testcase name="ContactService #getContacts should return expected contacts" time="0.025" classname="unit.ContactService"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
